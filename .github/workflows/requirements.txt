@@ -1,0 +1,35 @@
+# 数据采集
+akshare>=1.12
+efinance>=0.6
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=4.9
+
+# 数据分析
+pandas>=2.0
+numpy>=1.24
+ta-lib>=0.4.26
+# 如果ta-lib安装失败，可用pandas-ta替代
+# pandas-ta>=0.3.14
+
+# 技术指标（ta-lib替代方案）
+pandas-ta>=0.3.14
+
+# 文本处理
+jieba>=0.42
+# 中文情感分析（简单版，用自定义词典）
+snownlp>=0.12.3
+
+# 报告生成
+jinja2>=3.1
+markdown>=3.4
+
+# 可视化
+matplotlib>=3.7
+seaborn>=0.12
+
+# 日期处理
+python-dateutil>=2.8
+
+# 配置文件
+python-dotenv>=1.0
